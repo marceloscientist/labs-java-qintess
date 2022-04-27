@@ -42,14 +42,13 @@ class Operation {
     public int sum() {
         return this.getValue1() + this.getValue2();
     }
-
-    @Override
-    public String toString() {
-        return String.format(
-                "%d + $d = $d!",
-                this.getValue1(),
-                this.getValue2(),
-                this.sum()
-        );
+    public int subtract() {
+        return this.getValue1() - this.getValue2();
+    }
+    public int divide() {
+        return this.getValue1() / this.getValue2();
+    }
+    public int multiply() {
+        return this.getValue1() * this.getValue2();
     }
 }

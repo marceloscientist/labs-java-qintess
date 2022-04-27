@@ -12,8 +12,20 @@ class Main {
     public static
     void main (String[] args) {
         /*
+        * Métodos de Calculadora em INT
+        * */
+
+        Operation operacao = new Operation(2,5);
+        System.out.println("Soma: " + operacao.sum());
+        System.out.println("Subtração: " + operacao.subtract());
+        System.out.println("Divisão: " + operacao.divide());
+        System.out.println("Multiplicação: " + operacao.multiply());
+
+
+
+        /*
         * CAPITULO 5
-        */
+
 
         Employee empregado = new Employee("João", "dos Santos", "Programador", 4000.00);
         System.out.println(empregado.toString() + "\n\n");
@@ -25,6 +37,8 @@ class Main {
 
         System.out.println(g.toString());
 
+        *
+         */
 
 
         /*
