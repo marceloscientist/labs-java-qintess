@@ -25,7 +25,6 @@ class Operation {
         this.setValue2(value2);
     }
 
-
     public int getValue1() {
         return value1;
     }
@@ -37,18 +36,5 @@ class Operation {
     }
     public void setValue2(int value2) {
         this.value2 = value2;
-    }
-
-    public int sum() {
-        return this.getValue1() + this.getValue2();
-    }
-    public int subtract() {
-        return this.getValue1() - this.getValue2();
-    }
-    public int divide() {
-        return this.getValue1() / this.getValue2();
-    }
-    public int multiply() {
-        return this.getValue1() * this.getValue2();
     }
 }

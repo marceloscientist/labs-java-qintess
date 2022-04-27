@@ -1,4 +1,4 @@
-import capitulo3.lab1.Operation;
+import capitulo3.lab1.*;
 import capitulo3.lab2.EvenOrOdd;
 import capitulo4.lab1.Prime;
 import capitulo4.lab2.HowManyDaysInAMonth;
@@ -15,12 +15,25 @@ class Main {
         * Métodos de Calculadora em INT
         * */
 
-        Operation operacao = new Operation(2,5);
+        Divide dividir = new Divide(10,5);
+        System.out.println(dividir.toString());
+
+        Multiply multiplicar = new Multiply(10,5);
+        System.out.println(multiplicar.toString());
+
+        Subtract subtrair = new Subtract(10,5);
+        System.out.println(subtrair.toString());
+
+        Sum somar = new Sum(10,5);
+        System.out.println(somar.toString());
+
+
+        /*
         System.out.println("Soma: " + operacao.sum());
         System.out.println("Subtração: " + operacao.subtract());
         System.out.println("Divisão: " + operacao.divide());
         System.out.println("Multiplicação: " + operacao.multiply());
-
+        */
 
 
         /*
