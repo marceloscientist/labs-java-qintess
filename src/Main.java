@@ -1,9 +1,5 @@
-import capitulo6.lab1.e.lab2.Calculadora;
+import capitulo6.lab1_e_lab2.Calculadora;
 import capitulo6.lab3.Aluno;
-
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.List;
 
 public
 class Main {

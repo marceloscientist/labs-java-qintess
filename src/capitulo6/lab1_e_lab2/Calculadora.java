@@ -1,4 +1,4 @@
-package capitulo6.lab1.e.lab2;
+package capitulo6.lab1_e_lab2;
 
 public
 class Calculadora implements ICalculadora {
