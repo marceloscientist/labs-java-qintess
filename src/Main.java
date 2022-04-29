@@ -37,8 +37,8 @@ class Main {
         Aluno marco = new Aluno();
         marco.setNome("Marco");
         marco.imprimeAluno();
+        System.out.println("Temos "+ Aluno.getContadorDeAlunos() + " alunos ao total.");
         System.out.println("===================================================\n");
-
 
 
         /*
