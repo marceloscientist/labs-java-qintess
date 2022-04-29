@@ -1,20 +1,52 @@
-import capitulo3.lab1.*;
-import capitulo3.lab2.EvenOrOdd;
-import capitulo4.lab1.Prime;
-import capitulo4.lab2.HowManyDaysInAMonth;
-import capitulo4.lab3.WorldCupYears;
-import capitulo5.lab1.Employee;
-import capitulo5.lab2.carro.Car;
-import capitulo5.lab2.carro.Garage;
+import capitulo6.lab1.e.lab2.Calculadora;
+import capitulo6.lab3.Aluno;
+
+import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.List;
 
 public
 class Main {
+
     public static
     void main (String[] args) {
+
+
+        /*CAP6 LABS */
+        // LAB 1
+        System.out.println("===================================================\n");
+        Calculadora calc = new Calculadora();
+        System.out.println("calc.somar(6, 3) = " + calc.somar(6, 3));
+        System.out.println("calc.subtrair(6, 3) = " + calc.subtrair(6, 3));
+        System.out.println("calc.multiplicar(6, 3) = " + calc.multiplicar(6, 3));
+        System.out.println("calc.dividir((6, 3) = " + calc.dividir(6, 3));
+
+        System.out.println("===================================================\n");
+        // LAB 2
+        System.out.println("Método subtrair sobrecarregados: ");
+        System.out.printf("Chamando a versão de subtrair com dois double: %.1f \n", calc.subtrair(6.1, 3));
+        System.out.printf("Chamando a versão de subtrair com 1 double e 1 int: %.1f \n", calc.subtrair(6.2, 2));
+        System.out.printf("Chamando a versão de subtrair com 1 int e 1 double: %.1f \n", calc.subtrair(6, 3.2));
+        System.out.println("===================================================\n");
+
+        // LAB 3
+        Aluno aluno = new Aluno();
+        aluno.setNome("João");
+        System.out.println(aluno.imprimeAluno());
+
+        aluno.setNome("Maria");
+        System.out.println(aluno.imprimeAluno());
+
+        aluno.setNome("Marco");
+        System.out.println(aluno.imprimeAluno());
+        System.out.println("===================================================\n");
+
+
+
         /*
         * Métodos de Calculadora em INT
-        * */
-
+        *
+        Integer valor = 50;
         Divide dividir = new Divide(10,5);
         System.out.println(dividir.toString());
 
@@ -27,6 +59,7 @@ class Main {
         Sum somar = new Sum(10,5);
         System.out.println(somar.toString());
 
+*/
 
         /*
         System.out.println("Soma: " + operacao.sum());
