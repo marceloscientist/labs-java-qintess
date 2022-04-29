@@ -21,20 +21,22 @@ class Main {
         // LAB 2
         System.out.println("Método subtrair sobrecarregados: ");
         System.out.printf("Chamando a versão de subtrair com dois double: %.1f \n", calc.subtrair(6.1, 3));
-        System.out.printf("Chamando a versão de subtrair com 1 double e 1 int: %.1f \n", calc.subtrair(6.2, 2));
+        System.out.printf("Chamando a versão de subtrair com 1 double e 1 int: %.1f \n", calc.subtrair(6.2, 2.0));
         System.out.printf("Chamando a versão de subtrair com 1 int e 1 double: %.1f \n", calc.subtrair(6, 3.2));
         System.out.println("===================================================\n");
 
         // LAB 3
-        Aluno aluno = new Aluno();
-        aluno.setNome("João");
-        System.out.println(aluno.imprimeAluno());
+        Aluno joao = new Aluno();
+        joao.setNome("João");
+        joao.imprimeAluno();
 
-        aluno.setNome("Maria");
-        System.out.println(aluno.imprimeAluno());
+        Aluno maria = new Aluno();
+        maria.setNome("Maria");
+        maria.imprimeAluno();
 
-        aluno.setNome("Marco");
-        System.out.println(aluno.imprimeAluno());
+        Aluno marco = new Aluno();
+        marco.setNome("Marco");
+        marco.imprimeAluno();
         System.out.println("===================================================\n");
 
 

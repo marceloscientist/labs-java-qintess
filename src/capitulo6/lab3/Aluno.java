@@ -16,8 +16,8 @@ class Aluno {
         Aluno.contadorDeAlunos++;
     }
 
-    public String imprimeAluno() {
-        return "Aluno: " + this.getNome() + "\n" +
-               "Contagem no objeto " + this.getNome() + ": " + Aluno.contadorDeAlunos;
+    public void imprimeAluno() {
+        System.out.println("Aluno: " + this.getNome() + "\n" +
+               "Contagem no objeto " + this.getNome() + ": " + Aluno.contadorDeAlunos);
     }
 }
