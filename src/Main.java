@@ -1,14 +1,23 @@
 import capitulo6.lab1_e_lab2.Calculadora;
 import capitulo6.lab3.Aluno;
+import capitulo7.SignUp;
 
 public
 class Main {
 
     public static
     void main (String[] args) {
+        /*CAP7 */
+        SignUp desconhecido = new SignUp();
+        SignUp claudio = new SignUp("Cladio", "Abreu");
+        SignUp lourdes = new SignUp("Lourdes", "Souza", 40);
 
+        System.out.println(desconhecido.toString());
+        System.out.println(claudio.toString());
+        System.out.println(lourdes.toString());
 
-        /*CAP6 LABS */
+        // LAB1
+        /*CAP6 LABS
         // LAB 1
         System.out.println("===================================================\n");
         Calculadora calc = new Calculadora();
@@ -40,7 +49,7 @@ class Main {
         System.out.println("Temos "+ Aluno.getContadorDeAlunos() + " alunos ao total.");
         System.out.println("===================================================\n");
 
-
+        */
         /*
         * Métodos de Calculadora em INT
         *
