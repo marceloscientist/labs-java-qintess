@@ -1,13 +1,32 @@
-import capitulo6.lab1_e_lab2.Calculadora;
-import capitulo6.lab3.Aluno;
-import capitulo7.SignUp;
+import capitulo8.utils.lab1.NumberFuncionalities;
 
 public
 class Main {
 
     public static
     void main (String[] args) {
-        /*CAP7 */
+        //CAP8 LABS
+        // LAB 1
+        System.out.println("===================================================\n");
+        int[] numeros = {8, 5, 95, 5};
+        int max = NumberFuncionalities.getMax(numeros);
+        System.out.println("O número maior da minha lista é: " + max);
+        int min = NumberFuncionalities.getMin(numeros);
+        System.out.println("O número menor da minha lista é: " + min);
+
+/*
+        System.out.println("===================================================\n");
+        // LAB 2
+        System.out.println("Método subtrair sobrecarregados: ");
+        System.out.printf("Chamando a versão de subtrair com dois double: %.1f \n", calc.subtrair(6.1, 3));
+        System.out.printf("Chamando a versão de subtrair com 1 double e 1 int: %.1f \n", calc.subtrair(6.2, 2.0));
+        System.out.printf("Chamando a versão de subtrair com 1 int e 1 double: %.1f \n", calc.subtrair(6, 3.2));
+        System.out.println("===================================================\n");
+
+*/
+
+        /*
+        // CAP7
         SignUp desconhecido = new SignUp();
         SignUp claudio = new SignUp("Cladio", "Abreu");
         SignUp lourdes = new SignUp("Lourdes", "Souza", 40);
@@ -15,7 +34,7 @@ class Main {
         System.out.println(desconhecido.toString());
         System.out.println(claudio.toString());
         System.out.println(lourdes.toString());
-
+        */
         // LAB1
         /*CAP6 LABS
         // LAB 1

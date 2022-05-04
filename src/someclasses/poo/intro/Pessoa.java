@@ -1,4 +1,4 @@
-package intro.poo;
+package someclasses.poo.intro;
 
 public
 class Pessoa {
