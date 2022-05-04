@@ -8,22 +8,34 @@ class Main {
         //CAP8 LABS
         // LAB 1
         System.out.println("===================================================\n");
+        System.out.println("LAB 1\n");
+
+
         int[] numeros = {8, 5, 95, 5};
         int max = NumberFuncionalities.getMax(numeros);
         System.out.println("O número maior da minha lista é: " + max);
         int min = NumberFuncionalities.getMin(numeros);
         System.out.println("O número menor da minha lista é: " + min);
 
-/*
-        System.out.println("===================================================\n");
-        // LAB 2
-        System.out.println("Método subtrair sobrecarregados: ");
-        System.out.printf("Chamando a versão de subtrair com dois double: %.1f \n", calc.subtrair(6.1, 3));
-        System.out.printf("Chamando a versão de subtrair com 1 double e 1 int: %.1f \n", calc.subtrair(6.2, 2.0));
-        System.out.printf("Chamando a versão de subtrair com 1 int e 1 double: %.1f \n", calc.subtrair(6, 3.2));
-        System.out.println("===================================================\n");
 
-*/
+        // LAB 2
+        System.out.println("===================================================\n");
+        System.out.println("LAB 2\n");
+
+        if(args.length > 0) {
+            int soma = 0;
+            for(String arg : args) {
+                soma += Integer.parseInt(arg);
+            }
+            double media = soma/args.length;
+            System.out.printf("A média das idades: \n", args);
+            System.out.printf("é de: %.2f", media);
+
+        } else {
+            System.out.println("Entre com valores válidos para as idades");
+        }
+
+        System.out.println("\n===================================================\n");
 
         /*
         // CAP7
