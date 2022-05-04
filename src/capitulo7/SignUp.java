@@ -7,15 +7,15 @@ class SignUp {
     }
     public
     SignUp (String fname, String lname) {
-        this.fname = fname;
-        this.lname = lname;
+        setFname(fname);
+        setLname(lname);
     }
 
     public
     SignUp (String fname, String lname, int age) {
-        this.fname = fname;
-        this.lname = lname;
-        this.age = age;
+        setFname(fname);
+        setLname(lname);
+        setAge(age);
     }
 
     private String fname;
@@ -57,8 +57,8 @@ class SignUp {
     @Override
     public
     String toString ( ) {
-        return "First Name: " + fname + '\n' +
-               "Last Name: " + lname + '\n' +
-               "Age: " + age + '\n';
+        return "First Name: " + getFname() + '\n' +
+               "Last Name: " + getLname() + '\n' +
+               "Age: " + getAge() + '\n';
     }
 }
