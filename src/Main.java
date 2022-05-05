@@ -1,10 +1,25 @@
 import capitulo8.utils.lab1.NumberFuncionalities;
+import desafios.DesafioCincoDeMaio;
 
 public
 class Main {
 
     public static
     void main (String[] args) {
+
+
+        DesafioCincoDeMaio cincoDeMaio = new DesafioCincoDeMaio();
+        cincoDeMaio.criarMatrizDezDezRandomicamente();
+        cincoDeMaio.apresentarConteudoEPosicao();
+        cincoDeMaio.apresentarMatrizCompleta();
+        cincoDeMaio.apresentarSomaTerceiraColuna();
+
+
+
+
+
+
+        /*
         //CAP8 LABS
         // LAB 1
         System.out.println("===================================================\n");
@@ -36,7 +51,7 @@ class Main {
         }
 
         System.out.println("\n===================================================\n");
-
+        */
         /*
         // CAP7
         SignUp desconhecido = new SignUp();
@@ -176,5 +191,26 @@ class Main {
         System.out.println(par.toString());
          */
 
+
+        /*
+        receberArray(new int[] {8,9,2,3});
+
+
+
+        int conjunto[][] = {{0, 1, 1,5}, {8, 5, 8}, {9, 5, 4}};
+        for(int[] subconjunto : conjunto) {
+            for(int elemento: subconjunto) {
+                System.out.println(elemento);
+            }
+        }
+        */
+
     }
+
+    public static void receberArray(int[] arrayQualquer) {
+        for(int elemento : arrayQualquer) {
+            System.out.println(elemento);
+        }
+    }
+
 }
