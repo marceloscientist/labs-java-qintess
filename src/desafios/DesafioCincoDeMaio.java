@@ -1,5 +1,7 @@
 package desafios;
 
+import java.util.Arrays;
+
 public
 class DesafioCincoDeMaio {
 
@@ -39,7 +41,9 @@ class DesafioCincoDeMaio {
         }
     }
 
-    public void apresentarSomaTerceiraColuna() {
+
+
+    public String apresentarSomaTerceiraColuna() {
         System.out.println();
         System.out.println("=================== Apresentar Terceira Coluna ===================");
         int somaTerceiraColuna = 0;
@@ -50,6 +54,12 @@ class DesafioCincoDeMaio {
                 }
             }
         }
-        System.out.println("A soma da Terceira coluna é: " + somaTerceiraColuna);
+        return "A soma da Terceira coluna é: " + somaTerceiraColuna;
+    }
+
+    @Override
+    public
+    String toString ( ) {
+        return apresentarSomaTerceiraColuna();
     }
 }
